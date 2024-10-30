@@ -1,0 +1,24 @@
+{
+  "name": "motivator-plugin",
+  "displayName": "Motivator Plugin",
+  "description": "Shows a random motivational message on save",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js", 
+  "contributes": {},
+  "scripts": {
+    "compile": "tsc",
+    "watch": "tsc -w",
+    "build": "npm run compile"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.60.0",
+    "typescript": "^4.5.0"
+  },
+  "dependencies": {}
+}

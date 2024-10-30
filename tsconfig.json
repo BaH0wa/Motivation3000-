@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+	  "module": "commonjs",  // Используйте CommonJS
+	  "target": "es6",
+	  "outDir": "./out",
+	  "sourceMap": true,
+	  "lib": ["es6"]
+	},
+	"include": ["src"]
+  }
+  
